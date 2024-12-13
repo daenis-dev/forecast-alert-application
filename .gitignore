@@ -1,0 +1,66 @@
+*.p12
+*.crt
+*.key
+
+# Ignore build results
+/bin/
+/obj/
+/out/
+api/ForecastAlertService/obj
+api/ForecastAlertService/bin
+api/ForecastAlertService.Tests/obj
+api/ForecastAlertService.Tests/bin
+
+# Ignore Visual Studio for Mac configuration
+.vscode/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer files for Visual Studio
+.vs2017/
+.vs2019/
+
+# Rider
+.idea/
+
+# ASP.NET Core
+appsettings.*.json
+appsettings.json
+
+# Environment-specific settings
+.env
+
+# Npm package files
+node_modules/
+
+# Log files
+logs/
+*.log
+
+# Publish directory
+publish/
+
+# JetBrains Rider config folder
+.idea/
+
+# .NET Core CLI
+project.lock.json
+project.fragment.lock.json
+
+# User-specific configuration
+*.swp
+
+# macOS-specific files
+.DS_Store
+
+scratchpad.txt
