@@ -49,8 +49,6 @@
 
   
 
-
-
 ### Running the Application
 
 - Build and run the project with Docker
@@ -65,6 +63,18 @@
 
 ### API
 
+- Create an Alert
+
+  - **Method:** POST
+
+  - **URL:** https://localhost:8080/alerts
+
+  - **Request:**
+
+    ```
+  curl -X POST https://localhost:8080/alerts -H "Content-Type: application/json" -d "{\"name\": \"Wear Shoes\", \"isUrgent\": false}"
+    ```
+  
 - Get all Alerts
 
   - **Method:** GET
@@ -143,6 +153,18 @@
         "modifiedDateTimeUtc": "2024-12-12T04:34:15.777931Z"
       }
     ]
+    ```
+
+- Create Alert Specification
+
+  - **Method:** POST
+
+  - **URL:** https://localhost:8080/alertSpecifications
+
+  - **Request:**
+
+    ```
+    curl -X POST https://localhost:8080/alertSpecifications -H "Content-Type: application/json" -d "{\"alertId\": 3, \"specificationId\": 4, \"operatorId\": 6, \"thresholdValue\": 80}"
     ```
 
     
