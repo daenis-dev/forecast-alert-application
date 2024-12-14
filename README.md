@@ -63,7 +63,7 @@
 
 ### API
 
-- Create an Alert
+- Create Alert
 
   - **Method:** POST
 
@@ -72,9 +72,9 @@
   - **Request:**
 
     ```
-  curl -X POST https://localhost:8080/alerts -H "Content-Type: application/json" -d "{\"name\": \"Wear Shoes\", \"isUrgent\": false}"
+    curl -X POST https://localhost:8080/alertSpecifications -H "Content-Type: application/json" -d "{\"name\": \"Wear Shoes\", \"isUrgent\": false}"
     ```
-  
+
 - Get all Alerts
 
   - **Method:** GET
